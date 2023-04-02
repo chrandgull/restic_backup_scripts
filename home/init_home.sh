@@ -1,6 +1,6 @@
 set -uo pipefail
 
-source ~/.restic/env_home.bash
+source ~/src/home/env_home.bash
 
 restic init
 
