@@ -20,4 +20,4 @@ else
 fi
 
 
-source /home/backupvm/src/home/maint_mainframe.sh
+source /home/backupvm/src/mainframe/maint_mainframe.sh
