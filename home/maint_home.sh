@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ~/.restic/env_home.bash
+source ~/src/home/env_home.bash
 
 if test -f "$BACKUP_MARKER"; then
     echo "$BACKUP_MARKER exists. Cannot run maintenance process during backup process."
@@ -13,7 +13,6 @@ restic forget \
     --host "$RESTIC_HOST" \
     --path "$RESTIC_PATH" \
     --tag '' \
-    --dry-run \
     --keep-last 14 
 
 restic prune

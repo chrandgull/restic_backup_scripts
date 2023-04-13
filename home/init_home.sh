@@ -1,6 +1,6 @@
 set -uo pipefail
 
-source ~/src/home/env_home.bash
+source /home/backupvm/src/home/env_home.bash
 
 restic init
 

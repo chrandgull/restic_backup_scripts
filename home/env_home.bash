@@ -14,3 +14,5 @@ BACKUP_MARKER=/home/backupvm/home_directory_backup_in_progress
 MAINTENANCE_MARKER=/home/backupvm/home_directory_maintenance_in_progress
 
 export RESTIC_HOST RESTIC_PATH RESTIC_REPO_DESC RESTIC_REPOSITORY B2_ACCOUNT_ID B2_ACCOUNT_KEY RESTIC_PASSWORD
+PATH=$PATH:/home/backupvm/bin
+export PATH
